@@ -3,10 +3,16 @@
     color: white;
     background-color: aquamarine;
     text-align: center;
-    font-size: 100px;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-size: 20px;
+}
+
+img {
+    height: 400px;
+    width: auto;
+    border-style: double;
 }
 
 body {
@@ -15,24 +21,34 @@ body {
 
 h1 {
     border: white;
-    border-style: double;
-    margin: 10px;
+    margin: 10px auto;
     display: block;
     width: 100%;
     font-size: 200px;
     font-weight: bolder;
+    border-style: double;
+    width: 1500px;
+    text-align: center;
+}
+
+h2 {
+    border: white;
+    margin: 25px auto;
+    display: block;
+    width: 100%;
+    font-size: 50px;
+    font-weight: bolder;
+    border-style: double;
 }
 
 li {
     border: white;
-    border-style: double;
     margin: 10px;
 }
 
 ul {
     list-style-type: none;
     border: white;
-    border-style: double;
     margin: 10px;
 }
 
@@ -42,4 +58,13 @@ a:link {
 
   a:hover { 
     color: black; 
-  } 
+  }
+
+a {
+    font-size: 100px;
+    font-style: italic;
+}
+
+div {
+    padding: 0 300px;
+}
