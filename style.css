@@ -4,7 +4,7 @@
     background-color: aquamarine;
     text-align: center;
     font-size: 100px;
-    margin: 0;
+    margin: 20px;
     padding: 0;
     box-sizing: border-box;
 }
@@ -16,7 +16,8 @@ body {
 h1 {
     border: white;
     border-style: double;
-    margin: 10px;
+    margin: 0;
+    padding: 40px;
     display: block;
     width: 100%;
     font-size: 200px;
